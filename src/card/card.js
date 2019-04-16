@@ -12,7 +12,7 @@ const {
 const { Button } = wp.components
 
 registerBlockType( 'h5ua-alpha/card', {
-  title: __( 'H5U-Alpha Card', 'h5ua-alpha' ),
+  title: __( 'Card | H5UA', 'h5ua-alpha' ),
   icon: 'index-card',
   category: 'layout',
   attributes: {
@@ -106,7 +106,7 @@ registerBlockType( 'h5ua-alpha/card', {
         />
         <RichText
           format="string"
-          onChange={onChangeLinkText}
+          onChange={ onChangeLinkText }
           value={link_text}
           placeholder="Link Text..."
           className="card-link-text"

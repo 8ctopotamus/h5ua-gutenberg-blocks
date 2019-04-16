@@ -47,6 +47,10 @@ function h5ua_editor_assets() {
 
 	// Styles.
 	wp_enqueue_style(
+		'font-awesome',
+		'//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
+	);
+	wp_enqueue_style(
 		'h5ua-block-editor-css',
 		plugins_url( 'dist/blocks.editor.build.css', dirname( __FILE__ ) ), // Block editor CSS.
 		array( 'wp-edit-blocks' ) // Dependency to include the CSS after it.

@@ -1,1 +1,2 @@
-import './card/card.js'
+import './card/card'
+import './fa-icon/fa-icon'

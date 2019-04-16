@@ -9,3 +9,15 @@
     padding: 10px 12px;
     text-align: center;
     border-radius: 4px; }
+.h5ua-icon {
+  background: #666;
+  color: white;
+  height: 100px;
+  width: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-radius: 100%; }
